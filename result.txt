@@ -1,0 +1,78 @@
+Light Validation Completed
+Heuristic: aibr, SearchEngine: WAStar, BreakTies: null
+Simplification..
+(Pre Simplification) - |A|+|P|+|E|: 32
+(After Easy Simplification) - |A|+|P|+|E|: 30
+(Pre Simplification) - |A|+|P|+|E|: 32
+(After Easy Simplification) - |A|+|P|+|E|: 30
+(After AIBR):30
+Grounding and Simplification finished
+|A|:5
+|P|:9
+|E|:16
+Size(X):11
+Size(F):44
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1.0
+w_h set to be 0.0
+g_h set to be 0.0
+Setting horizon to:Infinity
+Running WA-STAR
+Reachable actions and processes: |A U P U E|:30
+h(n = s_0)=250.0
+f(n) = 250.0 (Expanded Nodes: 0, Evaluated States: 0, Time: 0.019)
+Starting Validation
+line 2:47 mismatched character ' ' expecting 'd'
+(Pre Simplification) - |A|+|P|+|E|: 32
+(After Easy Simplification) - |A|+|P|+|E|: 30
+(After AIBR):30
+Epsilon set to be:0.0
+Resolution for validation:1.0
+(Pddl+ semantics) Plan is valid:true
+Problem Solved
+(0,00000,5,00000)------>waiting
+5,00000: (T1_arrivesAtEndpoint_EP1 )
+(5,00000,6,00000)------>waiting
+6,00000: (T1_entersStation_I1 )
+(6,00000,11,00000)------>waiting
+11,00000: (T1_completeItinerary_I1 )
+11,00000: (T1_completeTrackSeg_I1_trackSegA_trackSegB )
+11,00000: (T1_overlaps_I1_I3 )
+11,00000: (T1_completeTrackSeg_I3_trackSegC )
+(11,00000,12,00000)------>waiting
+12,00000: (T1_endOverlap_I1_I3 )
+(12,00000,14,00000)------>waiting
+14,00000: (T1_completeTrackSeg_I3_trackSegD_trackSegE_trackSegF_trackSegG_trackSegH_trackSegI )
+14,00000: (T1_completeTrackSeg_I3_trackSegL )
+(14,00000,16,00000)------>waiting
+16,00000: (T1_completeItinerary_I3 )
+16,00000: (T1_completeTrackSeg_I3_trackSegM_trackSegN_trackSegO )
+16,00000: (T1_beginStop_I3_S_I )
+(16,00000,17,00000)------>waiting
+17,00000: (T1_endStop_I3_S_I )
+17,00000: (T1_overlaps_I3_I2 )
+(17,00000,18,00000)------>waiting
+18,00000: (T1_completeTrackSeg_I2_trackSegP_trackSegQ )
+18,00000: (T1_completeTrackSeg_I2_trackSegR )
+18,00000: (T1_endOverlap_I3_I2 )
+(18,00000,19,00000)------>waiting
+19,00000: (T1_completeTrackSeg_I2_trackSegS )
+(19,00000,22,00000)------>waiting
+22,00000: (T1_completeItinerary_I2 )
+22,00000: (T1_completeTrackSeg_I2_trackSegT_trackSegU_trackSegV_trackSegX )
+22,00000: (T1_exitsStation_I2 )
+
+Plan-Length:43
+Duration:22.0
+Metric (Plan):0.0
+Metric (Search):27.0
+Planning Time:579
+Heuristic Time:114
+Search Time:153
+Expanded Nodes:50
+States Evaluated:62
+Fixed constraint violations during search (zero-crossing):0
+Number of Dead-Ends detected:3
+Number of Duplicates detected:0
