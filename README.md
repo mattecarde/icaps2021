@@ -5,7 +5,7 @@ Support Material for the paper "In-Station Train Dispatching: A PDDL+ Planning A
 ## Dummy Station
 Because of confidentiality issues we cannot report the name of the station and other details regarding the data that cannot be disclosed by RFI. For this reason station's components names and structure has been anonymized in the pddl files.
 
-For this reason a dummy station was created in order to still be able to show the show the domain and problem files.
+For this reason a dummy station was created in order to still be able to show the domain and problem files.
 
 ### Structure of the station
 The dummy station reflects all the complexities of the real station used in our experiments.
