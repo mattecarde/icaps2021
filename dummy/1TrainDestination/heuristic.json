@@ -1,0 +1,101 @@
+{
+  "times": {
+    "INIT": {
+      "T1_arrivesAtEndpoint_W_plus": 5
+    },
+    "T1_entersStation_IW1": {
+      "T1_completeItinerary_IW1": 5,
+      "T1_completeBinBit_IW1_cdbaa": 0,
+      "T1_completeBinBit_IW1_cdbac": 1,
+      "T1_completeBinBit_IW1_cdbaf": 2,
+      "T1_completeBinBit_IW1_cdbai": 2,
+      "T1_completeBinBit_IW1_cdbap": 3,
+      "T1_completeBinBit_IW1_cdbau": 4
+    },
+    "T1_beginStop_IW1_S_I": {
+      "T1_endStop_IW1_S_I": 1
+    },
+    "T1_entersStation_IW2": {
+      "T1_completeItinerary_IW2": 5,
+      "T1_completeBinBit_IW2_cdbaa": 0,
+      "T1_completeBinBit_IW2_cdbac": 1,
+      "T1_completeBinBit_IW2_cdbaf": 1,
+      "T1_completeBinBit_IW2_cdbaj": 2,
+      "T1_completeBinBit_IW2_cdbal": 3,
+      "T1_completeBinBit_IW2_cdbaq": 3,
+      "T1_completeBinBit_IW2_cdbav": 4
+    },
+    "T1_beginStop_IW2_S_II": {
+      "T1_endStop_IW2_S_II": 1
+    },
+    "T1_entersStation_IW3": {
+      "T1_completeItinerary_IW3": 5,
+      "T1_completeBinBit_IW3_cdbaa": 0,
+      "T1_completeBinBit_IW3_cdbac": 1,
+      "T1_completeBinBit_IW3_cdbaf": 1,
+      "T1_completeBinBit_IW3_cdbaj": 2,
+      "T1_completeBinBit_IW3_cdbam": 3,
+      "T1_completeBinBit_IW3_cdbar": 3,
+      "T1_completeBinBit_IW3_cdbaw": 4
+    },
+    "T1_beginStop_IW3_S_III": {
+      "T1_endStop_IW3_S_III": 1
+    },
+    "T1_entersStation_IW4": {
+      "T1_completeItinerary_IW4": 5,
+      "T1_completeBinBit_IW4_cdbaa": 0,
+      "T1_completeBinBit_IW4_cdbac": 1,
+      "T1_completeBinBit_IW4_cdbag": 1,
+      "T1_completeBinBit_IW4_cdbak": 2,
+      "T1_completeBinBit_IW4_cdban": 3,
+      "T1_completeBinBit_IW4_cdbas": 3,
+      "T1_completeBinBit_IW4_cdbax": 4
+    },
+    "T1_beginStop_IW4_S_IV": {
+      "T1_endStop_IW4_S_IV": 1
+    },
+    "T1_entersStation_IW5": {
+      "T1_completeItinerary_IW5": 5,
+      "T1_completeBinBit_IW5_cdbaa": 0,
+      "T1_completeBinBit_IW5_cdbac": 1,
+      "T1_completeBinBit_IW5_cdbag": 1,
+      "T1_completeBinBit_IW5_cdbak": 2,
+      "T1_completeBinBit_IW5_cdbao": 3,
+      "T1_completeBinBit_IW5_cdbat": 3,
+      "T1_completeBinBit_IW5_cdbay": 4
+    },
+    "T1_beginStop_IW5_S_V": {
+      "T1_endStop_IW5_S_V": 1
+    }
+  },
+  "itineraryWeights": {
+    "T1": {
+      "timesHeuristic": {
+        "IW1": 5,
+        "IW2": 5,
+        "IW3": 5,
+        "IW4": 5,
+        "IW5": 5
+      },
+      "intersectionsHeuristic": {
+        "IW1": 7,
+        "IW2": 8,
+        "IW3": 8,
+        "IW4": 8,
+        "IW5": 8
+      }
+    }
+  },
+  "trains": [
+    {
+      "id": "T1",
+      "from": "W_plus",
+      "to": "E_minus",
+      "arrivalTime": 5,
+      "maxDuration": 50,
+      "type": "DESTINATION",
+      "stop": true,
+      "initialHeuristic": 18
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "times": {
+    "INIT": {
+      "T1_arrivesAtEndpoint_W_plus": 5,
+      "T2_arrivesAtEndpoint_E_plus": 8,
+      "T3_arrivesAtEndpoint_E_plus": 15
+    },
+    "T1_entersStation_IW1": {
+      "T1_completeItinerary_IW1": 5,
+      "T1_completeBinBit_IW1_cdbaa": 0,
+      "T1_completeBinBit_IW1_cdbac": 1,
+      "T1_completeBinBit_IW1_cdbaf": 2,
+      "T1_completeBinBit_IW1_cdbai": 2,
+      "T1_completeBinBit_IW1_cdbap": 3,
+      "T1_completeBinBit_IW1_cdbau": 4
+    },
+    "T1_beginStop_IW1_S_I": {
+      "T1_endStop_IW1_S_I": 1
+    },
+    "T1_overlaps_IW1_I1E": {
+      "T1_completeItinerary_I1E": 5,
+      "T1_completeBinBit_I1E_cdbbe": 1,
+      "T1_completeBinBit_I1E_cdbbl": 2,
+      "T1_completeBinBit_I1E_cdbbo": 3,
+      "T1_endOverlap_IW1_I1E": 1
+    },
+    "T1_entersStation_IW2": {
+      "T1_completeItinerary_IW2": 5,
+      "T1_completeBinBit_IW2_cdbaa": 0,
+      "T1_completeBinBit_IW2_cdbac": 1,
+      "T1_completeBinBit_IW2_cdbaf": 1,
+      "T1_completeBinBit_IW2_cdbaj": 2,
+      "T1_completeBinBit_IW2_cdbal": 3,
+      "T1_completeBinBit_IW2_cdbaq": 3,
+      "T1_completeBinBit_IW2_cdbav": 4
+    },
+    "T1_beginStop_IW2_S_II": {
+      "T1_endStop_IW2_S_II": 1
+    },
+    "T1_overlaps_IW2_I2E": {
+      "T1_completeItinerary_I2E": 5,
+      "T1_completeBinBit_I2E_cdbbf": 1,
+      "T1_completeBinBit_I2E_cdbbj": 2,
+      "T1_completeBinBit_I2E_cdbbl": 3,
+      "T1_completeBinBit_I2E_cdbbo": 4,
+      "T1_endOverlap_IW2_I2E": 1
+    },
+    "T1_entersStation_IW3": {
+      "T1_completeItinerary_IW3": 5,
+      "T1_completeBinBit_IW3_cdbaa": 0,
+      "T1_completeBinBit_IW3_cdbac": 1,
+      "T1_completeBinBit_IW3_cdbaf": 1,
+      "T1_completeBinBit_IW3_cdbaj": 2,
+      "T1_completeBinBit_IW3_cdbam": 3,
+      "T1_completeBinBit_IW3_cdbar": 3,
+      "T1_completeBinBit_IW3_cdbaw": 4
+    },
+    "T1_beginStop_IW3_S_III": {
+      "T1_endStop_IW3_S_III": 1
+    },
+    "T1_overlaps_IW3_I3E": {
+      "T1_completeItinerary_I3E": 5,
+      "T1_completeBinBit_I3E_cdbbg": 1,
+      "T1_completeBinBit_I3E_cdbbj": 2,
+      "T1_completeBinBit_I3E_cdbbl": 3,
+      "T1_completeBinBit_I3E_cdbbo": 4,
+      "T1_endOverlap_IW3_I3E": 1
+    },
+    "T1_entersStation_IW4": {
+      "T1_completeItinerary_IW4": 5,
+      "T1_completeBinBit_IW4_cdbaa": 0,
+      "T1_completeBinBit_IW4_cdbac": 1,
+      "T1_completeBinBit_IW4_cdbag": 1,
+      "T1_completeBinBit_IW4_cdbak": 2,
+      "T1_completeBinBit_IW4_cdban": 3,
+      "T1_completeBinBit_IW4_cdbas": 3,
+      "T1_completeBinBit_IW4_cdbax": 4
+    },
+    "T1_beginStop_IW4_S_IV": {
+      "T1_endStop_IW4_S_IV": 1
+    },
+    "T1_overlaps_IW4_I4E": {
+      "T1_completeItinerary_I4E": 5,
+      "T1_completeBinBit_I4E_cdbbh": 1,
+      "T1_completeBinBit_I4E_cdbbk": 2,
+      "T1_completeBinBit_I4E_cdbbm": 3,
+      "T1_completeBinBit_I4E_cdbbo": 4,
+      "T1_endOverlap_IW4_I4E": 1
+    },
+    "T1_entersStation_IW5": {
+      "T1_completeItinerary_IW5": 5,
+      "T1_completeBinBit_IW5_cdbaa": 0,
+      "T1_completeBinBit_IW5_cdbac": 1,
+      "T1_completeBinBit_IW5_cdbag": 1,
+      "T1_completeBinBit_IW5_cdbak": 2,
+      "T1_completeBinBit_IW5_cdbao": 3,
+      "T1_completeBinBit_IW5_cdbat": 3,
+      "T1_completeBinBit_IW5_cdbay": 4
+    },
+    "T1_beginStop_IW5_S_V": {
+      "T1_endStop_IW5_S_V": 1
+    },
+    "T1_overlaps_IW5_I5E": {
+      "T1_completeItinerary_I5E": 5,
+      "T1_completeBinBit_I5E_cdbbi": 1,
+      "T1_completeBinBit_I5E_cdbbk": 2,
+      "T1_completeBinBit_I5E_cdbbm": 3,
+      "T1_completeBinBit_I5E_cdbbo": 4,
+      "T1_endOverlap_IW5_I5E": 1
+    },
+    "T2_entersStation_IE1": {
+      "T2_completeItinerary_IE1": 5,
+      "T2_completeBinBit_IE1_cdbbs": 0,
+      "T2_completeBinBit_IE1_cdbbp": 1,
+      "T2_completeBinBit_IE1_cdbbl": 2,
+      "T2_completeBinBit_IE1_cdbbe": 2,
+      "T2_completeBinBit_IE1_cdbaz": 3,
+      "T2_completeBinBit_IE1_cdbau": 4
+    },
+    "T2_beginStop_IE1_S_I": {
+      "T2_endStop_IE1_S_I": 1
+    },
+    "T2_overlaps_IE1_I1W": {
+      "T2_completeItinerary_I1W": 5,
+      "T2_completeBinBit_I1W_cdbai": 1,
+      "T2_completeBinBit_I1W_cdbaf": 2,
+      "T2_completeBinBit_I1W_cdbad": 3,
+      "T2_endOverlap_IE1_I1W": 1
+    },
+    "T2_entersStation_IE2": {
+      "T2_completeItinerary_IE2": 5,
+      "T2_completeBinBit_IE2_cdbbs": 0,
+      "T2_completeBinBit_IE2_cdbbp": 1,
+      "T2_completeBinBit_IE2_cdbbl": 1,
+      "T2_completeBinBit_IE2_cdbbj": 2,
+      "T2_completeBinBit_IE2_cdbbf": 3,
+      "T2_completeBinBit_IE2_cdbba": 3,
+      "T2_completeBinBit_IE2_cdbav": 4
+    },
+    "T2_beginStop_IE2_S_II": {
+      "T2_endStop_IE2_S_II": 1
+    },
+    "T2_overlaps_IE2_I2W": {
+      "T2_completeItinerary_I2W": 5,
+      "T2_completeBinBit_I2W_cdbal": 1,
+      "T2_completeBinBit_I2W_cdbaj": 2,
+      "T2_completeBinBit_I2W_cdbaf": 3,
+      "T2_completeBinBit_I2W_cdbad": 4,
+      "T2_endOverlap_IE2_I2W": 1
+    },
+    "T2_entersStation_IE3": {
+      "T2_completeItinerary_IE3": 5,
+      "T2_completeBinBit_IE3_cdbbs": 0,
+      "T2_completeBinBit_IE3_cdbbp": 1,
+      "T2_completeBinBit_IE3_cdbbl": 1,
+      "T2_completeBinBit_IE3_cdbbj": 2,
+      "T2_completeBinBit_IE3_cdbbg": 3,
+      "T2_completeBinBit_IE3_cdbbb": 3,
+      "T2_completeBinBit_IE3_cdbaw": 4
+    },
+    "T2_beginStop_IE3_S_III": {
+      "T2_endStop_IE3_S_III": 1
+    },
+    "T2_overlaps_IE3_I3W": {
+      "T2_completeItinerary_I3W": 5,
+      "T2_completeBinBit_I3W_cdbam": 1,
+      "T2_completeBinBit_I3W_cdbaj": 2,
+      "T2_completeBinBit_I3W_cdbaf": 3,
+      "T2_completeBinBit_I3W_cdbad": 4,
+      "T2_endOverlap_IE3_I3W": 1
+    },
+    "T2_entersStation_IE4": {
+      "T2_completeItinerary_IE4": 5,
+      "T2_completeBinBit_IE4_cdbbs": 0,
+      "T2_completeBinBit_IE4_cdbbq": 1,
+      "T2_completeBinBit_IE4_cdbbn": 1,
+      "T2_completeBinBit_IE4_cdbbk": 2,
+      "T2_completeBinBit_IE4_cdbbh": 3,
+      "T2_completeBinBit_IE4_cdbbc": 3,
+      "T2_completeBinBit_IE4_cdbax": 4
+    },
+    "T2_beginStop_IE4_S_IV": {
+      "T2_endStop_IE4_S_IV": 1
+    },
+    "T2_overlaps_IE4_I4W": {
+      "T2_completeItinerary_I4W": 5,
+      "T2_completeBinBit_I4W_cdban": 1,
+      "T2_completeBinBit_I4W_cdbak": 2,
+      "T2_completeBinBit_I4W_cdbah": 3,
+      "T2_completeBinBit_I4W_cdbae": 4,
+      "T2_endOverlap_IE4_I4W": 1
+    },
+    "T2_entersStation_IE5": {
+      "T2_completeItinerary_IE5": 5,
+      "T2_completeBinBit_IE5_cdbbs": 0,
+      "T2_completeBinBit_IE5_cdbbq": 1,
+      "T2_completeBinBit_IE5_cdbbn": 1,
+      "T2_completeBinBit_IE5_cdbbk": 2,
+      "T2_completeBinBit_IE5_cdbbi": 3,
+      "T2_completeBinBit_IE5_cdbbd": 3,
+      "T2_completeBinBit_IE5_cdbay": 4
+    },
+    "T2_beginStop_IE5_S_V": {
+      "T2_endStop_IE5_S_V": 1
+    },
+    "T2_overlaps_IE5_I5W": {
+      "T2_completeItinerary_I5W": 5,
+      "T2_completeBinBit_I5W_cdbao": 1,
+      "T2_completeBinBit_I5W_cdbak": 2,
+      "T2_completeBinBit_I5W_cdbah": 3,
+      "T2_completeBinBit_I5W_cdbae": 4,
+      "T2_endOverlap_IE5_I5W": 1
+    },
+    "T3_entersStation_IE1": {
+      "T3_completeItinerary_IE1": 5,
+      "T3_completeBinBit_IE1_cdbbs": 0,
+      "T3_completeBinBit_IE1_cdbbp": 1,
+      "T3_completeBinBit_IE1_cdbbl": 2,
+      "T3_completeBinBit_IE1_cdbbe": 2,
+      "T3_completeBinBit_IE1_cdbaz": 3,
+      "T3_completeBinBit_IE1_cdbau": 4
+    },
+    "T3_beginStop_IE1_S_I": {
+      "T3_endStop_IE1_S_I": 1
+    },
+    "T3_entersStation_IE2": {
+      "T3_completeItinerary_IE2": 5,
+      "T3_completeBinBit_IE2_cdbbs": 0,
+      "T3_completeBinBit_IE2_cdbbp": 1,
+      "T3_completeBinBit_IE2_cdbbl": 1,
+      "T3_completeBinBit_IE2_cdbbj": 2,
+      "T3_completeBinBit_IE2_cdbbf": 3,
+      "T3_completeBinBit_IE2_cdbba": 3,
+      "T3_completeBinBit_IE2_cdbav": 4
+    },
+    "T3_beginStop_IE2_S_II": {
+      "T3_endStop_IE2_S_II": 1
+    },
+    "T3_entersStation_IE3": {
+      "T3_completeItinerary_IE3": 5,
+      "T3_completeBinBit_IE3_cdbbs": 0,
+      "T3_completeBinBit_IE3_cdbbp": 1,
+      "T3_completeBinBit_IE3_cdbbl": 1,
+      "T3_completeBinBit_IE3_cdbbj": 2,
+      "T3_completeBinBit_IE3_cdbbg": 3,
+      "T3_completeBinBit_IE3_cdbbb": 3,
+      "T3_completeBinBit_IE3_cdbaw": 4
+    },
+    "T3_beginStop_IE3_S_III": {
+      "T3_endStop_IE3_S_III": 1
+    },
+    "T3_entersStation_IE4": {
+      "T3_completeItinerary_IE4": 5,
+      "T3_completeBinBit_IE4_cdbbs": 0,
+      "T3_completeBinBit_IE4_cdbbq": 1,
+      "T3_completeBinBit_IE4_cdbbn": 1,
+      "T3_completeBinBit_IE4_cdbbk": 2,
+      "T3_completeBinBit_IE4_cdbbh": 3,
+      "T3_completeBinBit_IE4_cdbbc": 3,
+      "T3_completeBinBit_IE4_cdbax": 4
+    },
+    "T3_beginStop_IE4_S_IV": {
+      "T3_endStop_IE4_S_IV": 1
+    },
+    "T3_entersStation_IE5": {
+      "T3_completeItinerary_IE5": 5,
+      "T3_completeBinBit_IE5_cdbbs": 0,
+      "T3_completeBinBit_IE5_cdbbq": 1,
+      "T3_completeBinBit_IE5_cdbbn": 1,
+      "T3_completeBinBit_IE5_cdbbk": 2,
+      "T3_completeBinBit_IE5_cdbbi": 3,
+      "T3_completeBinBit_IE5_cdbbd": 3,
+      "T3_completeBinBit_IE5_cdbay": 4
+    },
+    "T3_beginStop_IE5_S_V": {
+      "T3_endStop_IE5_S_V": 1
+    }
+  },
+  "itineraryWeights": {
+    "T1": {
+      "timesHeuristic": {
+        "I1E": 5,
+        "IW1": 10,
+        "I2E": 5,
+        "IW2": 10,
+        "I3E": 5,
+        "IW3": 10,
+        "I4E": 5,
+        "IW4": 10,
+        "I5E": 5,
+        "IW5": 10
+      },
+      "intersectionsHeuristic": {
+        "I1E": 4,
+        "IW1": 11,
+        "I2E": 5,
+        "IW2": 13,
+        "I3E": 5,
+        "IW3": 13,
+        "I4E": 5,
+        "IW4": 13,
+        "I5E": 5,
+        "IW5": 13
+      }
+    },
+    "T2": {
+      "timesHeuristic": {
+        "I1W": 5,
+        "IE1": 10,
+        "I2W": 5,
+        "IE2": 10,
+        "I3W": 5,
+        "IE3": 10,
+        "I4W": 5,
+        "IE4": 10,
+        "I5W": 5,
+        "IE5": 10
+      },
+      "intersectionsHeuristic": {
+        "I1W": 4,
+        "IE1": 11,
+        "I2W": 5,
+        "IE2": 13,
+        "I3W": 5,
+        "IE3": 13,
+        "I4W": 5,
+        "IE4": 13,
+        "I5W": 5,
+        "IE5": 13
+      }
+    },
+    "T3": {
+      "timesHeuristic": {
+        "IE1": 5,
+        "IE2": 5,
+        "IE3": 5,
+        "IE4": 5,
+        "IE5": 5
+      },
+      "intersectionsHeuristic": {
+        "IE1": 7,
+        "IE2": 8,
+        "IE3": 8,
+        "IE4": 8,
+        "IE5": 8
+      }
+    }
+  },
+  "trains": [
+    {
+      "id": "T1",
+      "from": "W_plus",
+      "to": "E_minus",
+      "arrivalTime": 5,
+      "maxDuration": 30,
+      "stop": true,
+      "initialHeuristic": 28
+    },
+    {
+      "id": "T2",
+      "from": "E_plus",
+      "to": "W_minus",
+      "arrivalTime": 8,
+      "maxDuration": 30,
+      "stop": true,
+      "initialHeuristic": 31
+    },
+    {
+      "id": "T3",
+      "from": "E_plus",
+      "to": "W_minus",
+      "arrivalTime": 15,
+      "maxDuration": 30,
+      "type": "DESTINATION",
+      "stop": true,
+      "initialHeuristic": 28
+    }
+  ]
+}

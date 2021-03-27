@@ -1,0 +1,72 @@
+Domain parsed
+Problem parsed
+Grounding..
+Light Validation Completed
+Heuristic: aibr, SearchEngine: rfi, BreakTies: null
+Simplification..
+(Pre Simplification) - |A|+|P|+|E|: 98
+(After Easy Simplification) - |A|+|P|+|E|: 69
+(Pre Simplification) - |A|+|P|+|E|: 98
+(After Easy Simplification) - |A|+|P|+|E|: 69
+(After AIBR):69
+Grounding and Simplification finished
+|A|:15
+|P|:9
+|E|:45
+Size(X):11
+Size(F):64
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1.0
+w_h set to be 0.0
+g_h set to be 0.0
+Setting horizon to:Infinity
+Running RFI Custom
+RFI SEARCH ENGINE
+-----------------
+Dead ends Detected:0
+Expanded Nodes:7
+States Evaluated:28
+Final Metric:NaN
+-----------------
+Starting Validation
+(Pre Simplification) - |A|+|P|+|E|: 98
+(After Easy Simplification) - |A|+|P|+|E|: 69
+(After AIBR):69
+Epsilon set to be:0.0
+Resolution for validation:1.0
+(Pddl+ semantics) Plan is valid:true
+Problem Solved
+(0,00000,5,00000)------>waiting
+5,00000: (T1_arrivesAtEndpoint_W_plus )
+5,00000: (T1_entersStation_IW1 )
+5,00000: (T1_completeBinBit_IW1_cdbaa )
+(5,00000,6,00000)------>waiting
+6,00000: (T1_completeBinBit_IW1_cdbac )
+(6,00000,7,00000)------>waiting
+7,00000: (T1_completeBinBit_IW1_cdbaf )
+7,00000: (T1_completeBinBit_IW1_cdbai )
+(7,00000,8,00000)------>waiting
+8,00000: (T1_completeBinBit_IW1_cdbap )
+(8,00000,9,00000)------>waiting
+9,00000: (T1_completeBinBit_IW1_cdbau )
+(9,00000,10,00000)------>waiting
+10,00000: (T1_completeItinerary_IW1 )
+10,00000: (T1_beginStop_IW1_S_I )
+(10,00000,11,00000)------>waiting
+11,00000: (T1_endStop_IW1_S_I )
+11,00000: (T1_trainEndsVoy_IW1_S_I )
+
+Plan-Length:20
+Duration:11.0
+Metric (Plan):0.0
+Metric (Search):0.0
+Planning Time:649
+Heuristic Time:0
+Search Time:0
+Expanded Nodes:0
+States Evaluated:0
+Fixed constraint violations during search (zero-crossing):0
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0

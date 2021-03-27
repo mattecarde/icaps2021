@@ -1,0 +1,106 @@
+Domain parsed
+Problem parsed
+Grounding..
+Light Validation Completed
+Heuristic: aibr, SearchEngine: rfi, BreakTies: null
+Simplification..
+(Pre Simplification) - |A|+|P|+|E|: 229
+(After Easy Simplification) - |A|+|P|+|E|: 225
+(Pre Simplification) - |A|+|P|+|E|: 229
+(After Easy Simplification) - |A|+|P|+|E|: 225
+(After AIBR):225
+Grounding and Simplification finished
+|A|:40
+|P|:37
+|E|:148
+Size(X):41
+Size(F):158
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1.0
+w_h set to be 0.0
+g_h set to be 0.0
+Setting horizon to:Infinity
+Running RFI Custom
+RFI SEARCH ENGINE
+-----------------
+Dead ends Detected:0
+Expanded Nodes:17
+States Evaluated:24
+Final Metric:NaN
+-----------------
+Starting Validation
+(Pre Simplification) - |A|+|P|+|E|: 229
+(After Easy Simplification) - |A|+|P|+|E|: 225
+(After AIBR):225
+Epsilon set to be:0.0
+Resolution for validation:1.0
+(Pddl+ semantics) Plan is valid:true
+Problem Solved
+(0,00000,5,00000)------>waiting
+5,00000: (T1_arrivesAtEndpoint_W_plus )
+5,00000: (T1_entersStation_IW1 )
+5,00000: (T1_completeBinBit_IW1_cdbaa )
+(5,00000,6,00000)------>waiting
+6,00000: (T1_completeBinBit_IW1_cdbac )
+(6,00000,7,00000)------>waiting
+7,00000: (T1_completeBinBit_IW1_cdbaf )
+7,00000: (T1_completeBinBit_IW1_cdbai )
+(7,00000,8,00000)------>waiting
+8,00000: (T1_completeBinBit_IW1_cdbap )
+8,00000: (T2_arrivesAtEndpoint_E_plus )
+8,00000: (T2_entersStation_IE3 )
+8,00000: (T2_completeBinBit_IE3_cdbbs )
+(8,00000,9,00000)------>waiting
+9,00000: (T1_completeBinBit_IW1_cdbau )
+9,00000: (T2_completeBinBit_IE3_cdbbp )
+9,00000: (T2_completeBinBit_IE3_cdbbl )
+(9,00000,10,00000)------>waiting
+10,00000: (T1_completeItinerary_IW1 )
+10,00000: (T2_completeBinBit_IE3_cdbbj )
+10,00000: (T1_beginStop_IW1_S_I )
+(10,00000,11,00000)------>waiting
+11,00000: (T1_endStop_IW1_S_I )
+11,00000: (T2_completeBinBit_IE3_cdbbg )
+11,00000: (T2_completeBinBit_IE3_cdbbb )
+11,00000: (T1_overlaps_IW1_I1E )
+(11,00000,12,00000)------>waiting
+12,00000: (T1_completeBinBit_I1E_cdbbe )
+12,00000: (T1_endOverlap_IW1_I1E )
+12,00000: (T2_completeBinBit_IE3_cdbbl )
+12,00000: (T2_completeBinBit_IE3_cdbaw )
+(12,00000,13,00000)------>waiting
+13,00000: (T2_completeItinerary_IE3 )
+13,00000: (T2_beginStop_IE3_S_III )
+(13,00000,14,00000)------>waiting
+14,00000: (T1_completeBinBit_I1E_cdbbo )
+14,00000: (T2_endStop_IE3_S_III )
+14,00000: (T2_overlaps_IE3_I3W )
+(14,00000,15,00000)------>waiting
+15,00000: (T2_completeBinBit_I3W_cdbam )
+15,00000: (T2_endOverlap_IE3_I3W )
+(15,00000,16,00000)------>waiting
+16,00000: (T1_completeItinerary_I1E )
+16,00000: (T2_completeBinBit_I3W_cdbaj )
+16,00000: (T1_exitsStation_I1E )
+(16,00000,17,00000)------>waiting
+17,00000: (T2_completeBinBit_I3W_cdbaf )
+(17,00000,18,00000)------>waiting
+18,00000: (T2_completeBinBit_I3W_cdbad )
+(18,00000,19,00000)------>waiting
+19,00000: (T2_completeItinerary_I3W )
+19,00000: (T2_exitsStation_I3W )
+
+Plan-Length:55
+Duration:19.0
+Metric (Plan):0.0
+Metric (Search):0.0
+Planning Time:1436
+Heuristic Time:0
+Search Time:0
+Expanded Nodes:0
+States Evaluated:0
+Fixed constraint violations during search (zero-crossing):0
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0

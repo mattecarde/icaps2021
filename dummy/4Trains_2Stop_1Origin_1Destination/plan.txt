@@ -1,0 +1,130 @@
+Domain parsed
+Problem parsed
+Grounding..
+Light Validation Completed
+Heuristic: aibr, SearchEngine: rfi, BreakTies: null
+Simplification..
+(Pre Simplification) - |A|+|P|+|E|: 302
+(After Easy Simplification) - |A|+|P|+|E|: 296
+(Pre Simplification) - |A|+|P|+|E|: 302
+(After Easy Simplification) - |A|+|P|+|E|: 296
+(After AIBR):296
+Grounding and Simplification finished
+|A|:57
+|P|:41
+|E|:198
+Size(X):45
+Size(F):193
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1.0
+w_h set to be 0.0
+g_h set to be 0.0
+Setting horizon to:Infinity
+Running RFI Custom
+RFI SEARCH ENGINE
+-----------------
+Dead ends Detected:0
+Expanded Nodes:23
+States Evaluated:28
+Final Metric:NaN
+-----------------
+Starting Validation
+(Pre Simplification) - |A|+|P|+|E|: 302
+(After Easy Simplification) - |A|+|P|+|E|: 296
+(After AIBR):296
+Epsilon set to be:0.0
+Resolution for validation:1.0
+(Pddl+ semantics) Plan is valid:true
+Problem Solved
+(0,00000,5,00000)------>waiting
+5,00000: (T1_arrivesAtEndpoint_W_plus )
+5,00000: (T1_entersStation_IW1 )
+5,00000: (T1_completeBinBit_IW1_cdbaa )
+(5,00000,6,00000)------>waiting
+6,00000: (T1_completeBinBit_IW1_cdbac )
+(6,00000,7,00000)------>waiting
+7,00000: (T1_completeBinBit_IW1_cdbaf )
+7,00000: (T1_completeBinBit_IW1_cdbai )
+(7,00000,8,00000)------>waiting
+8,00000: (T1_completeBinBit_IW1_cdbap )
+8,00000: (T2_arrivesAtEndpoint_E_plus )
+8,00000: (T2_entersStation_IE5 )
+8,00000: (T2_completeBinBit_IE5_cdbbs )
+(8,00000,9,00000)------>waiting
+9,00000: (T1_completeBinBit_IW1_cdbau )
+9,00000: (T2_completeBinBit_IE5_cdbbq )
+9,00000: (T2_completeBinBit_IE5_cdbbn )
+(9,00000,10,00000)------>waiting
+10,00000: (T1_completeItinerary_IW1 )
+10,00000: (T2_completeBinBit_IE5_cdbbk )
+10,00000: (T1_beginStop_IW1_S_I )
+(10,00000,11,00000)------>waiting
+11,00000: (T1_endStop_IW1_S_I )
+11,00000: (T2_completeBinBit_IE5_cdbbi )
+11,00000: (T2_completeBinBit_IE5_cdbbd )
+11,00000: (T1_overlaps_IW1_I1E )
+(11,00000,12,00000)------>waiting
+12,00000: (T1_completeBinBit_I1E_cdbbe )
+12,00000: (T1_endOverlap_IW1_I1E )
+12,00000: (T2_completeBinBit_IE5_cdbay )
+(12,00000,13,00000)------>waiting
+13,00000: (T1_completeBinBit_I1E_cdbbl )
+13,00000: (T2_completeItinerary_IE5 )
+13,00000: (T2_beginStop_IE5_S_V )
+(13,00000,14,00000)------>waiting
+14,00000: (T1_completeBinBit_I1E_cdbbo )
+14,00000: (T2_endStop_IE5_S_V )
+14,00000: (T2_overlaps_IE5_I5W )
+(14,00000,15,00000)------>waiting
+15,00000: (T2_completeBinBit_I5W_cdbao )
+15,00000: (T2_endOverlap_IE5_I5W )
+15,00000: (T3_arrivesAtEndpoint_E_plus )
+15,00000: (T3_entersStation_IE1 )
+15,00000: (T1_completeBinBit_I1E_cdbbe )
+15,00000: (T1_completeBinBit_I1E_cdbbl )
+15,00000: (T3_completeBinBit_IE1_cdbbs )
+(15,00000,16,00000)------>waiting
+16,00000: (T1_completeItinerary_I1E )
+16,00000: (T2_completeBinBit_I5W_cdbak )
+16,00000: (T3_completeBinBit_IE1_cdbbp )
+16,00000: (T1_exitsStation_I1E )
+(16,00000,17,00000)------>waiting
+17,00000: (T2_completeBinBit_I5W_cdbah )
+(17,00000,18,00000)------>waiting
+18,00000: (T2_completeBinBit_I5W_cdbae )
+18,00000: (T3_completeBinBit_IE1_cdbaz )
+(18,00000,19,00000)------>waiting
+19,00000: (T2_completeItinerary_I5W )
+19,00000: (T3_completeBinBit_IE1_cdbau )
+19,00000: (T2_exitsStation_I5W )
+19,00000: (T4_beginsVoy_S_IV_I4W )
+(19,00000,20,00000)------>waiting
+20,00000: (T3_completeItinerary_IE1 )
+20,00000: (T4_completeBinBit_I4W_cdban )
+20,00000: (T3_beginStop_IE1_S_I )
+(20,00000,21,00000)------>waiting
+21,00000: (T3_endStop_IE1_S_I )
+21,00000: (T4_completeBinBit_I4W_cdbak )
+21,00000: (T3_trainEndsVoy_IE1_S_I )
+(21,00000,22,00000)------>waiting
+22,00000: (T4_completeBinBit_I4W_cdbah )
+(22,00000,23,00000)------>waiting
+23,00000: (T4_completeBinBit_I4W_cdbae )
+(23,00000,24,00000)------>waiting
+24,00000: (T4_completeItinerary_I4W )
+24,00000: (T4_exitsStation_I4W )
+
+Plan-Length:80
+Duration:24.0
+Metric (Plan):0.0
+Metric (Search):0.0
+Planning Time:1378
+Heuristic Time:0
+Search Time:0
+Expanded Nodes:0
+States Evaluated:0
+Fixed constraint violations during search (zero-crossing):0
+Number of Dead-Ends detected:0
+Number of Duplicates detected:0

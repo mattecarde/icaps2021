@@ -1,0 +1,37 @@
+{
+  "times": {
+    "INIT": {
+      "T1_beginsVoy_S_III_I3E": 5,
+      "T1_arrivesAtEndpoint_W_plus": 5
+    },
+    "T1_beginsVoy_S_III_I3E": {
+      "T1_completeItinerary_I3E": 5,
+      "T1_completeBinBit_I3E_cdbbg": 1,
+      "T1_completeBinBit_I3E_cdbbj": 2,
+      "T1_completeBinBit_I3E_cdbbl": 3,
+      "T1_completeBinBit_I3E_cdbbo": 4
+    }
+  },
+  "itineraryWeights": {
+    "T1": {
+      "timesHeuristic": {
+        "I3E": 5
+      },
+      "intersectionsHeuristic": {
+        "I3E": 5
+      }
+    }
+  },
+  "trains": [
+    {
+      "id": "T1",
+      "from": "W_plus",
+      "to": "E_minus",
+      "arrivalTime": 5,
+      "maxDuration": 50,
+      "type": "ORIGIN",
+      "stop": "S_III",
+      "initialHeuristic": 15
+    }
+  ]
+}
