@@ -1,16 +1,16 @@
 # In-Station Train Dispatching: A PDDL+ Planning Approach
-Support Material for the paper "In-Station Train Dispatching: A PDDL+ Planning Approach" to be published at [ICAPS 2021](https://github.com/mattecarde/icaps2021.git)
+Support Material for the paper "In-Station Train Dispatching: A PDDL+ Planning Approach" published at [ICAPS 2021](http://icaps21.icaps-conference.org/home/). The paper can be read [here](https://ojs.aaai.org/index.php/ICAPS/article/view/15991/15802).
 
 
 ## Dummy Station
-Because of confidentiality issues we cannot report the name of the station and other details regarding the data that cannot be disclosed by RFI. For this reason station's components names and structure has been anonymized in the pddl files.
+Because of confidentiality issues we cannot report the name of the station and other details regarding the data that cannot be disclosed by RFI. For this reason station's components names and structure has been anonymized in the PDDL files.
 
 For this reason a dummy station was created in order to still be able to show the domain and problem files.
 
 ### Structure of the station
 The dummy station reflects all the complexities of the real station used in our experiments.
 
-![](./dummy/dummy-station.png)
+![](./dummy/dummy-station.jpg)
 
 The station has the following properties:
 
